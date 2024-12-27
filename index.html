@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Digital Clock</title>
+  </head>
+
+  <body onload="intiClock()">
+    <div class="datetime">
+      <div class="date">
+        <span id="dayname">Day</span>
+
+        <span>
+          <span id="daynum">00</span>/
+          <span id="month">Month</span>
+          /<span id="year">Year</span>
+        </span>
+      </div>
+      <div class="time">
+        <span id="hour">00</span>
+        <small class="hrs"></small>
+        <strong>:</strong>
+        <span id="minutes">00</span>
+
+        <small class="mins"></small>
+        <strong>:</strong>
+        <span id="seconds">00</span><small class="secs"></small>
+        <span id="period">AM</span>
+      </div>
+
+      <div class="below"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
